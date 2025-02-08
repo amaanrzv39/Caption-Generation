@@ -14,7 +14,6 @@ def get_cnn_model():
     model = convnext_small(
         weights=torchvision.models.convnext.ConvNeXt_Small_Weights.IMAGENET1K_V1)
     model = nn.Sequential(*list(model.children())[:-2])
-
     return model
 
 # sinusoidal PositionalEncoding class
