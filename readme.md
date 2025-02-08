@@ -4,6 +4,7 @@
 # Overview
 
 This repo implements Image Caption Generation using ConvNxt + Transformer decoder architecture.
+Go to notebook for dataset details and training code.
 
 ```
 Pothole-detection/
