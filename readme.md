@@ -7,7 +7,7 @@ This repo implements Image Caption Generation using ConvNxt + Transformer decode
 Go to notebook for dataset details and training code.
 
 ```
-Pothole-detection/
+Caption-Generation/
 ├── notebook/              # Jupyter notebook contains implementation details.
 ├── weights/               # Contains best pt weights after training
 ├── config.yml             # Contains hyperparameters
